@@ -37,10 +37,12 @@ int main() {
       cout << endl;
     
       
-      if (choice == "1"){
+     if (choice == "1"){
         int search;
+        string input;
         cout << "Please enter the number you would like to search for in the array: ";
-        cin >> search;
+        cin >> input;
+        search = stoi(input);
         present(search,numbers,currentPos);
       }
     
