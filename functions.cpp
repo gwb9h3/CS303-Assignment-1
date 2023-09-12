@@ -39,7 +39,7 @@ pair<int,int> replace(int position,int NewNum, int array[],int currentPos){//Thi
 
 void addNum(int number, int position, int array[]){
   try{
-    if(position >= 100){
+    if(position >= 100){ // This checks to see if the array has been filled, if it has it will throw an error and exit the function
       string error = "Error max limit of array has been reached";
       throw error;
     }
