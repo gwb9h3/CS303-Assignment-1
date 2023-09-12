@@ -4,7 +4,6 @@ using namespace std;
 int main() {
   ifstream inFile;
   string FileName;
-  cout << "test" << endl;
   int numbers[100] = {}; // The array has a max limit of 100 numbers 
   
   cout << "Please enter the name of the file you would like to input into the array :";
